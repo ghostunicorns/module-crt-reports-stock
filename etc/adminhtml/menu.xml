@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © GhostUnicorns spa. All rights reserved.
+  ~ See LICENSE and/or COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="GhostUnicorns_CrtReportsStock::reports_stock"
+             title="Stock"
+             translate="title"
+             module="GhostUnicorns_CrtReportsStock"
+             sortOrder="100"
+             parent="GhostUnicorns_CrtReports::reports"
+             action="crt_reports_stock/reports/activity"
+             resource="GhostUnicorns_CrtReportsStock::reports_stock_activity"/>
+    </menu>
+</config>
